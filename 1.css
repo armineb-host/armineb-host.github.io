@@ -1,0 +1,185 @@
+:root {
+    --bgb:#fff;
+    --bsh:0 6px 18px rgba(16,24,40,0.06);
+    --brd:12px;
+    --muted:#546E7A;
+    --ssh:0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@font-face {
+    font-family: "Shabnam-FD";
+    src: url("../font/Shabnam-FD.woff2") format(woff2) ,
+    local(Shabnam-FD);
+}
+body {
+    font-family: "Shabnam-FD";
+    background-color: #fafafa;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* .test {
+    width: 300px;
+    height: 300px;
+    background-color:var(--bgb);
+    box-shadow:var(--bsh);
+    border-radius: var(--brd);
+} */
+.header {
+    width: 100%;
+    height: 150px;
+    /* background-color:#CFD8DC; */
+    text-align: center;
+    /* #f1f5f9 */
+    background: linear-gradient(90deg,#EEEEEE,#f1f5f9);
+    display: flex;
+}
+.mohageg {
+    width: 100px;
+    margin-top: 22px;
+    padding-right: 8px;
+    
+}
+.container {
+    margin: 0  auto;
+    
+}
+.header h1 {
+    padding-top: 18px;
+    font-size: 32px;
+}
+.header p {
+    margin-top: 14px;
+    color: var(--muted);
+}
+.main-con {
+    /* background-color: aquamarine; */
+    width: 70%;
+    margin: 26px auto 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.sidebar {
+    background-color: #fff;
+    width: 320px;
+    border-radius: var(--brd);
+    padding: 18px;
+    height: 764px;
+    box-shadow: var(--ssh);
+}
+.content {
+    /* background-color: #fff; */
+    /* box-shadow: var(--ssh); */
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    /* padding: 18px; */
+}
+
+.content p {
+    color: var(--muted);
+    margin-top: 8px;
+    
+}
+.about {
+    background-color: #fff; 
+    box-shadow: var(--ssh);
+    padding: 18px;
+    border-radius: var(--brd);
+    padding-top: 28px;
+    /* height: 100px; */
+}
+.education {
+    background-color: #fff; 
+    box-shadow: var(--ssh);
+    padding: 18px;
+    border-radius: var(--brd);
+    /* height: 100px; */
+    padding-top: 28px;
+
+}
+.hobbies {
+    background-color: #fff; 
+    box-shadow: var(--ssh);
+    padding: 18px;
+    border-radius: var(--brd);
+    padding-top: 28px;
+}
+.projects {
+    background-color: #fff; 
+    box-shadow: var(--ssh);
+    padding: 18px;
+    border-radius: var(--brd);
+    padding-top: 28px;
+}
+.about p {
+    padding-top: 12px;
+    /* padding-bottom: 1px; */
+}
+.education p {
+    padding-top: 14px;
+}
+.photo {
+    width: 150px;
+    height: auto;    
+    display: block;
+    /* border-radius: 14px; */
+    padding: 14px;
+    margin: 0 auto 10px auto;
+}
+ul {
+    padding-right: 10px;
+    list-style: none;
+}
+li {
+    border-bottom: 1px dashed #eef2f7;
+    color: var(--muted);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.footer {
+    width: 100%;
+    background-color:#E0E0E0;
+    height: 200px;
+    margin-top: 20px;
+}
+.footer-content {
+    padding-top: 16px;
+    padding-right: 16px;
+
+}
+.footer-right {
+    margin-top: 62px;
+    text-align: center;
+    color: var(--muted);
+    /* border-top: solid ; */
+    /* padding-top: 8px; */
+}
+.footer-content p {
+    padding-top: 8px;
+}
+.tel {
+    color: blue;
+    text-decoration: none;
+}
+.skill {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill li {
+  display: flex;
+  align-items: center;  /* وسط‌چین عمودی */
+  gap: 8px;             /* فاصله بین آیکون و متن */
+  margin-bottom: 8px;   /* فاصله بین هر آیتم */
+}
+
+.skill li img {
+  width: 24px;           /* اندازه آیکون */
+  height: 24px;
+}
